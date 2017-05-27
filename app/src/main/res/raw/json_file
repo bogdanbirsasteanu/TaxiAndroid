@@ -1,0 +1,52 @@
+{
+  "services":
+          [
+            {
+              "id":1,
+              "service_number":302,
+              "driver_first_name":"Gheorghe",
+              "driver_last_name":"Voinici",
+              "reported":false,
+              "stationX":231,
+              "stationY":213,
+              "free":true
+            }
+          ],
+
+  "clients":
+          [
+            {
+              "id":101,
+              "user_first_name":"Bogdan",
+              "user_last_name":"Buhnici",
+              "phone":"0728462323"
+            }
+          ],
+
+  "client_requests":
+          [
+            {
+              "id":1,
+              "client_id":101,
+              "address_name":"Str. Ciresica",
+              "address_number":3,
+              "freq":6
+            },
+
+            {
+              "id":2,
+              "client_id":101,
+              "address_name":"Str. Ciresica",
+              "address_number":14,
+              "freq":2
+            },
+
+            {
+              "id":1,
+              "user_id":101,
+              "address_name":"Str. Cisnadei",
+              "address_number":4,
+              "freq":1
+            }
+          ]
+}
